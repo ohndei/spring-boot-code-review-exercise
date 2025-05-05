@@ -48,7 +48,7 @@ public interface PatientService {
      * @param patient data used to update patient
      * @throws NoSuchPatientException if the patient does not exist
      */
-    public void updatePatient(String patientId, Patient patient) throws NoSuchPatientException;
+    public void updatePatient(String patientId, Patient patient);
 
     /**
      * Deletes the specified patient; ignores invalid patient IDs
